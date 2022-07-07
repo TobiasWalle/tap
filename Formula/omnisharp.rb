@@ -6,6 +6,6 @@ class Omnisharp < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.install_symlink "#{libexec}/omnisharp"
+    bin.install_symlink "#{libexec}/run"
   end
 end
